@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Angel_YY\Tryout\NXPCommunity\LPC5500\smart_lock_s\settings\smart_lock_s.debug.general.xcl" --backend -f "D:\Angel_YY\Tryout\NXPCommunity\LPC5500\smart_lock_s\settings\smart_lock_s.debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Angel_YY\Tryout\NXPCommunity\LPC5500\SmartLockOfLPC55S69SingleCore\settings\smart_lock_s.debug.general.xcl" --backend -f "D:\Angel_YY\Tryout\NXPCommunity\LPC5500\SmartLockOfLPC55S69SingleCore\settings\smart_lock_s.debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Angel_YY\Tryout\NXPCommunity\LPC5500\smart_lock_s\settings\smart_lock_s.debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Angel_YY\Tryout\NXPCommunity\LPC5500\smart_lock_s\settings\smart_lock_s.debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.2\common\bin\cspybat" -f "D:\Angel_YY\Tryout\NXPCommunity\LPC5500\SmartLockOfLPC55S69SingleCore\settings\smart_lock_s.debug.general.xcl" --debug_file=$debugfile --backend -f "D:\Angel_YY\Tryout\NXPCommunity\LPC5500\SmartLockOfLPC55S69SingleCore\settings\smart_lock_s.debug.driver.xcl" 
 }
